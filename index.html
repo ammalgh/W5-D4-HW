@@ -14,7 +14,7 @@
         }
     </style>
 </head>
-<body>
+<body onload="relo()">
     <nav class="navbar navbar-custom">
         <div class="container-fluid">
             <a class="navbar-brand">Register</a>
@@ -23,7 +23,7 @@
 
     <div class="container">
         <h2>SignUp</h2>
-        <form id="registerForm">
+        <div id="registerForm">
             <label for="username">username :</label>
             <input type="text" id="username" name="username" required>
             <label for="email">Email :</label>
@@ -31,7 +31,7 @@
             <label for="password">Password :</label>
             <input type="password" id="password" name="password" required>
             <button type="submit">SignUp</button>
-        </form>
+        </div>
         <div id="message"></div>
         <p>Do you have an account?  <a href="login.html">Login </a></p>
     </div>
