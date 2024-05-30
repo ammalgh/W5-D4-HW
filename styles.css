@@ -1,0 +1,167 @@
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+   
+    body {
+        font-family: Arial, sans-serif;
+        background-color:white;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .container {
+        width: 300px;
+        margin: 100px auto;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    h2 {
+        margin-bottom: 20px;
+    }
+    
+    label {
+        display: block;
+        margin-bottom: 5px;
+    }
+    
+    input {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+    }
+    
+    button {
+        width: 100%;
+        padding: 10px;
+        background-color: #4691aa;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background-color: #4691aa;
+    }
+    
+    #message, #loginMessage {
+        color: red;
+        margin-top: 10px;
+    }
+    
+    
+    .navbar-custom {
+        background-color: #4691aa; 
+    }
+
+.cards{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-img-top{
+    width: 30%;
+    height: 30%;
+    margin-right: 8em;
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:white;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4691aa;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4691aa;
+}
+
+#message, #loginMessage {
+    color: red;
+    margin-top: 10px;
+}
+
+
+.navbar-custom {
+    background-color: #4691aa; 
+}
+
+.cards{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-img-top{
+    width: 30%;
+    height: 30%;
+    margin-right: 8em;
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+}
