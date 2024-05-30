@@ -30,12 +30,12 @@ document.getElementById('registerForm').addEventListener('submit', function(even
     })
     .then(response => response.json())
     .then(data => {
-        console.log('Success:', data);
+        console.log( data);
         localStorage.setItem('username', data.username);
         window.location.href = 'home.html';
     })
     .catch(error => {
-        console.error('Error:', error);
+        console.error( error);
         message.textContent = 'حدث خطأ أثناء التسجيل.';
     });
 });
@@ -59,7 +59,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
         }
     })
     .catch(error => {
-        console.error('Error:', error);
+        console.error( error);
         loginMessage.textContent = 'حدث خطأ أثناء تسجيل الدخول.';
     });
 });
